@@ -1,5 +1,9 @@
 # Imports
 import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
+# import english
 from nltk.tokenize import word_tokenize
 
 # Prompt the user to enter a sentence
@@ -16,8 +20,8 @@ print(pos_tags)
 
 # Word Split independent of NLTK
 text = input("Enter your text: ")
-word_spilt = text.split()
-print ("The split is:", word_split)
+word_spilt = text.spilt()
+print ("The split is:", word_spilt)
 
 
 #Counting words
