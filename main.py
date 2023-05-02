@@ -50,8 +50,8 @@ print(pos_tags)
 
 # Word Spilt independent of NLTK
 text = input("Enter your text: ")
-word_spilt = text.spilt()
-print ("The spilt is:", word_spilt)
+word_split = text.split()
+print("The split is:", word_split)
 
 
 #Counting words
