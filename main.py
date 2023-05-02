@@ -1,3 +1,4 @@
+# Imports
 import nltk
 from nltk.tokenize import word_tokenize
 
@@ -12,3 +13,7 @@ pos_tags = nltk.pos_tag(words)
 
 # Print the tagged words and their POS tags
 print(pos_tags)
+
+# Word Count independent of NLTK
+text = input("Enter your text: ")
+text.split()
