@@ -1,10 +1,19 @@
 # Imports
 import nltk
+import csv
+import english
+from nltk.tokenize import word_tokenize
+
+# Downloads
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
-# import english
-from nltk.tokenize import word_tokenize
+#CSV
+with open('data.csv', 'r') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
+
 
 # Welcome
 print("Welcome to The Word Farm...\n")
