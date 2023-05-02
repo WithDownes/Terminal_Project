@@ -14,10 +14,10 @@ pos_tags = nltk.pos_tag(words)
 # Print the tagged words and their POS tags
 print(pos_tags)
 
-# Word Count independent of NLTK
+# Word Split independent of NLTK
 text = input("Enter your text: ")
-word_count = text.split()
-print word_count()
+word_spilt = text.split()
+print ("The split is:", word_split)
 
 
 #Counting words
