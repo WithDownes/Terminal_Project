@@ -34,6 +34,8 @@ while True:
     else:
         print("Invalid choice. Please try again.")
 
+# Part of speech tagger
+
 # Prompt the user to enter a sentence
 sentence = input("Enter a sentence: ")
 
