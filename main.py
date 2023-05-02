@@ -7,17 +7,16 @@ nltk.download('averaged_perceptron_tagger')
 from nltk.tokenize import word_tokenize
 
 # Welcome
-
 print("Welcome to The Word Farm...\n")
 print("Here's a menu to help you choose your tool so you can farm you words.\n")
 
 # Menu
 while True:
-    print("1. Option 1")
-    print("2. Option 2")
-    print("3. Option 3")
-    print("4. Exit")
-    choice = input("Enter your choice: ")
+    print("1/ Option 1")
+    print("2/ Option 2")
+    print("3/ Option 3")
+    print("4/ Exit")
+    choice = input("Which tool would you like to use?: ")
     
     if choice == "1":
         # code to execute for option 1
