@@ -16,4 +16,15 @@ print(pos_tags)
 
 # Word Count independent of NLTK
 text = input("Enter your text: ")
-text.split()
+word_count = text.split()
+print word_count()
+
+
+#Counting words
+string = "Python is awesome, isn't it?"
+substring = "is"
+
+count = string.count(substring)
+
+# print count
+print("The count is:", count)
