@@ -73,3 +73,6 @@ count = text_to_count.count(substring)
 
 # print count
 print("The substring count is:", count)
+
+# Colorizer
+
