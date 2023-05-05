@@ -3,8 +3,8 @@ import nltk
 import csv
 import english
 import sys
-import termcolor
-from termcolor import colored, cprint
+import colorama
+from colorama import Fore
 from nltk.tokenize import word_tokenize
 
 # Downloads
@@ -57,8 +57,7 @@ while True:
         print("The split is:", word_split)
             
         # Colorizer
-        text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
-        print(text)
+        print(Fore.RED + 'This text is red in color')
             
     elif choice == "3":
         # code to execute for option 3
