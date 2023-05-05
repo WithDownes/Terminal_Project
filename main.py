@@ -50,29 +50,29 @@ while True:
         # code to execute for option 2
         print("Option 2 selected.")
         
-            # Word Spilt independent of NLTK
-            text = input("Enter your text: ")
-            word_split = text.split()
-            print("The split is:", word_split)
+        # Word Spilt independent of NLTK
+        text = input("Enter your text: ")
+        word_split = text.split()
+        print("The split is:", word_split)
             
-            # Colorizer
-            text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
-            print(text)
+        # Colorizer
+        text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
+        print(text)
             
     elif choice == "3":
         # code to execute for option 3
         print("Option 3 selected.")
         
-            #Counting words
-            # string = "Python is awesome, isn't it?"
-            # substring = "is"
+        #Counting words
+        # string = "Python is awesome, isn't it?"
+        # substring = "is"
 
-            text_to_count = input("Enter a sentence: ")
-            substring = input("Enter substring")
-            count = text_to_count.count(substring)
+        text_to_count = input("Enter a sentence: ")
+        substring = input("Enter substring")
+        count = text_to_count.count(substring)
 
-            # print count
-            print("The substring count is:", count)
+        # print count
+        print("The substring count is:", count)
             
     elif choice == "4":
         # exit the program
