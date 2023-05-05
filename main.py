@@ -12,10 +12,10 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
 #CSV
-with open('data.csv', 'r') as file:
-    reader = csv.reader(file)
-    for row in reader:
-        print(row)
+#with open('data.csv', 'r') as file:
+    #reader = csv.reader(file)
+    #for row in reader:
+        #print(row)
 
 
 # Welcome
