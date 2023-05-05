@@ -30,12 +30,47 @@ while True:
     if choice == "1":
         # code to execute for option 1
         print("Option 1 selected.")
+        # Part of speech tagger
+
+            # Prompt the user to enter a sentence
+            sentence = input("Enter a sentence: ")
+
+            # Tokenize the sentence into words
+            words = word_tokenize(sentence)
+
+            # Use NLTK's part-of-speech (POS) tagger to tag each word with its corresponding POS tag
+            pos_tags = nltk.pos_tag(words)
+
+            # Print the tagged words and their POS tags
+            print(pos_tags) 
+            
     elif choice == "2":
         # code to execute for option 2
         print("Option 2 selected.")
+        
+            # Word Spilt independent of NLTK
+            text = input("Enter your text: ")
+            word_split = text.split()
+            print("The split is:", word_split)
+            
+            # Colorizer
+            
+            
     elif choice == "3":
         # code to execute for option 3
         print("Option 3 selected.")
+        
+            #Counting words
+            # string = "Python is awesome, isn't it?"
+            # substring = "is"
+
+            text_to_count = input("Enter a sentence: ")
+            substring = input("Enter substring")
+            count = text_to_count.count(substring)
+
+            # print count
+            print("The substring count is:", count)
+            
     elif choice == "4":
         # exit the program
         print("Exiting program.")
@@ -43,36 +78,12 @@ while True:
     else:
         print("Invalid choice. Please try again.")
 
-# Part of speech tagger
-
-# Prompt the user to enter a sentence
-sentence = input("Enter a sentence: ")
-
-# Tokenize the sentence into words
-words = word_tokenize(sentence)
-
-# Use NLTK's part-of-speech (POS) tagger to tag each word with its corresponding POS tag
-pos_tags = nltk.pos_tag(words)
-
-# Print the tagged words and their POS tags
-print(pos_tags)
-
-# Word Spilt independent of NLTK
-text = input("Enter your text: ")
-word_split = text.split()
-print("The split is:", word_split)
 
 
-#Counting words
-# string = "Python is awesome, isn't it?"
-# substring = "is"
 
-text_to_count = input("Enter a sentence: ")
-substring = input("Enter substring")
-count = text_to_count.count(substring)
 
-# print count
-print("The substring count is:", count)
 
-# Colorizer
+
+
+
 
