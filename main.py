@@ -57,7 +57,7 @@ while True:
         print("The split is:", word_split)
             
         # Colorizer
-        print(Fore.RED + 'This text is red in color')
+        print(word_split + 'This text is red in color')
             
     elif choice == "3":
         # code to execute for option 3
