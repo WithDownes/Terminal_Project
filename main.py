@@ -6,7 +6,6 @@ import sys
 from termcolor import colored, cprint
 from nltk.tokenize import word_tokenize
 
-
 # Downloads
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
