@@ -3,6 +3,7 @@ import nltk
 import csv
 import english
 import sys
+import termcolor
 from termcolor import colored, cprint
 from nltk.tokenize import word_tokenize
 
