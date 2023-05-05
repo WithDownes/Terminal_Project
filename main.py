@@ -2,7 +2,10 @@
 import nltk
 import csv
 import english
+import sys
+from termcolor import colored, cprint
 from nltk.tokenize import word_tokenize
+
 
 # Downloads
 nltk.download('punkt')
@@ -54,7 +57,8 @@ while True:
             print("The split is:", word_split)
             
             # Colorizer
-            
+            text = colored('Hello, World!', 'red', attrs=['reverse', 'blink'])
+            print(text)
             
     elif choice == "3":
         # code to execute for option 3
