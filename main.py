@@ -68,7 +68,7 @@ while True:
         # substring = "is"
 
         text_to_count = input("Enter a sentence: ")
-        substring = input("Enter substring")
+        substring = input("Enter substring: ")
         count = text_to_count.count(substring)
 
         # print count
