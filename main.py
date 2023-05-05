@@ -21,9 +21,9 @@ print("Here's a menu to help you choose your tool so you can farm you words.\n")
 
 # Menu
 while True:
-    print("1/ Option 1")
-    print("2/ Option 2")
-    print("3/ Option 3")
+    print("1/ Option 1 - Part of Speech Tagger")
+    print("2/ Option 2 - Word Split with Colour")
+    print("3/ Option 3 - Word Counter")
     print("4/ Exit")
     choice = input("Which tool would you like to use?: ")
     
