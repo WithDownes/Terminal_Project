@@ -4,7 +4,8 @@ import csv
 import english
 import sys
 import colorama
-from colorama import Fore
+from colorama import Fore, Back, Style
+colorama.init(autoreset=True)
 from nltk.tokenize import word_tokenize
 
 # Downloads
