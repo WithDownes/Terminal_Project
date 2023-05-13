@@ -8,6 +8,7 @@ from colorama import Fore
 from nltk.tokenize import word_tokenize
 
 # Downloads
+nltk.download()
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
