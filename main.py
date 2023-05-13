@@ -20,7 +20,7 @@ nltk.download('averaged_perceptron_tagger')
 
 # Welcome
 print("Welcome to The Word Farm...\n")
-print("Here's a menu to help you choose your tool so you can farm you words.\n")
+print("Here's a menu to help you choose your tool so you can grow your words.\n")
 
 # Menu
 while True:
